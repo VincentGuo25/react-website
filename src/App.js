@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar/NavBar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/Pages/Home";
 import Services from "./components/Pages/Services";
-import Products from "./components/Pages/Products";
+import Booking from "./components/Pages/Booking";
 import SignUp from "./components/Pages/SignUp";
 
 import "./App.css";
@@ -17,7 +17,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/services" exact component={Services} />
-          <Route path="/products" exact component={Products} />
+          <Route path="/booking" exact component={Booking} />
           <Route path="/sign-up" exact component={SignUp} />
         </Switch>
         <Footer />

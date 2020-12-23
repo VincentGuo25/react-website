@@ -30,7 +30,7 @@ function NavBar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            TRVL <i className="fab fa-typo3"></i>
+            JPN <i className="fa fa-plane"></i>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -49,8 +49,8 @@ function NavBar() {
               onClick={closeMobileMenu}
             />
             <NavBarItem
-              title="Products"
-              to="/products"
+              title="Booking"
+              to="/booking"
               className="nav-links"
               onClick={closeMobileMenu}
             />

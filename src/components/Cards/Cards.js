@@ -10,19 +10,19 @@ import Image8 from "../../assets/images/img-8.jpg";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Check out these EPIC Destinations</h1>
+      <h1>Why should you go to Japan?</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
               src={Image9}
-              text="Explore the hidden waterfall deep inside the Amazon Jungle"
+              text="See the beautiful Cherry Blossom Sakura Tree only in Japan"
               label="Adventure"
               path="/services"
             />
             <CardItem
               src={Image2}
-              text="Travel through the Islands of Bali in a Private Cruise"
+              text="Taste the Delicious Japanese Foods like Sushi and Ramen"
               label="Luxury"
               path="/services"
             />
@@ -30,19 +30,19 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src={Image3}
-              text="Set Sail in the Atlantic Ocean Visiting Uncharted Waters"
+              text="See the beautiful Japan Shrine and Torii Gate"
               label="Mystery"
               path="/services"
             />
             <CardItem
               src={Image4}
-              text="Experience Football on Top of the Himilayan Mountains'"
+              text="Climb to the beautiful and high Mountain Fuji"
               label="Adventure"
               path="/products"
             />
             <CardItem
               src={Image8}
-              text="Ride through the Sahara Desert on a guided camel tour"
+              text="Wear Japanese traditional Kimono and Yukata"
               label="Adrenaline"
               path="/sign-up"
             />
